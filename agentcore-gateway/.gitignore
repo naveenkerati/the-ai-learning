@@ -1,0 +1,44 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Byte-code files
+*.pyc
+__pycache__/
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+/site/
+
+bin/
+include/
+lib/
+share/
+
+local/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Test files
+.pytest_cache/
+.coverage
+
+# Miscellaneous
+*.log
+*.sqlite3
+*.db
+.env
+pyvenv.cfg
+cdk.json
+.cursor
